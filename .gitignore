@@ -1,0 +1,30 @@
+# deps
+node_modules/
+
+# env
+.env
+.env.production
+
+# logs
+logs/*
+pnpm-debug.log*
+*.log
+
+# misc
+.DS_Store
+
+
+# eslint
+.eslintcache
+
+# output
+dist
+local/*.output.*
+*.output.&
+
+# crawlee
+storage
+# Midscene.js dump files
+midscene_run/report
+midscene_run/tmp
+

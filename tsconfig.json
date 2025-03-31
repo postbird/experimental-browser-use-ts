@@ -1,0 +1,34 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "Preserve",
+    "moduleResolution": "bundler",
+    "strict": true,
+    "declaration": true,
+    "removeComments": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "incremental": true,
+    "skipLibCheck": true,
+    "strictNullChecks": true,
+    "forceConsistentCasingInFileNames": true,
+    "noImplicitAny": false,
+    "useUnknownInCatchVariables": false,
+    "strictBindCallApply": false,
+    "noFallthroughCasesInSwitch": false,
+    "types": ["node"],
+    "jsx": "react-jsx",
+    "jsxImportSource": "hono/jsx",
+    "rootDir": ".",
+    "baseUrl": ".",
+    "lib": ["DOM"],
+    "outDir": "./dist",
+    "paths": {
+      "@/*": ["./src/*"]
+    }
+  },
+  "include": ["src/**/*", "local/**/*", "global.d.ts"],
+  "exclude": ["node_modules"]
+}
