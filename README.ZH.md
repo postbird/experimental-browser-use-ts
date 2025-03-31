@@ -1,3 +1,5 @@
+[中文](./README.ZH.md) | [English](./README.md)
+
 # Experimental browser-use 
 
 基于 puppeteer 与 视觉模型，探索并实现类 `browser-use` 能力。
