@@ -1,8 +1,11 @@
 # Experimental browser-use 
+
 Explore and implement `browser-use` capabilities based on puppeteer and vision models.
 
+This project draws inspiration from some of the designs of the [midscene](https://github.com/web-infra-dev/midscene) project.
+
 <div align="center">
-  <img src="./browser-use-screen.png" width="300" >
+  <img src="./browser-use-screen.png" width="600" >
 </div>
 
 **Notes:**
@@ -15,6 +18,7 @@ Explore and implement `browser-use` capabilities based on puppeteer and vision m
 - Dependencies:
   - Browser automation: `puppeteer`
   - Tracing: `langsmith`
+
 ## Environment Requirements
 
 ### Node.js

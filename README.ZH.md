@@ -2,8 +2,10 @@
 
 基于 puppeteer 与 视觉模型，探索并实现类 `browser-use` 能力。
 
+部分实现参考了 [midscene](https://github.com/web-infra-dev/midscene) 项目的设计。
+
 <div align="center">
-  <img src="./browser-use-screen.png" width="300" >
+  <img src="./browser-use-screen.png" width="600" >
 </div>
 
 注意：
